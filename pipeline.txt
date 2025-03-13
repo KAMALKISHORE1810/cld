@@ -1,7 +1,6 @@
 import tensorflow as tf
 from tensorflow.keras import layers, models
 from tensorflow.keras.datasets import cifar10
-
 # 1. Load and preprocess data
 (train_images, train_labels), (test_images, test_labels) = cifar10.load_data()
 
